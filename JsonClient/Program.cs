@@ -10,11 +10,14 @@ namespace JsonClient
     {
         static void Main(string[] args)
         {
-
+            //laver en ny client så vi kan lave en start metode
             Client client = new Client();
 
+            //køre hele vores metode med NS SW SR 
             client.Start();
 
+
+            //så den ikke lukker med det samme.
             Console.ReadLine();
 
 
